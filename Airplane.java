@@ -23,9 +23,9 @@ public class Airplane {
                     if (i == 0) {
                         section.arrangement[row][section.col - 1] = currentPass;
                     }
-                    else if (i == maxCols - 1) {
-                        section.arrangement[row][0] =  currentPass;
-                    }
+//                     else if (i == maxCols - 1) {
+//                         section.arrangement[row][0] =  currentPass;
+//                     }
                     else {
                         section.arrangement[row][0] =  currentPass;
                         if(section.col - 1 != 0) {
